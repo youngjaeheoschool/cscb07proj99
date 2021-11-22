@@ -48,7 +48,7 @@ public class ChooseAccountRole extends AppCompatActivity implements View.OnClick
             // TODO : Go to Main menu
         }
         else {
-            updateRole(this.accountId, role);
+            updateRole(this.accountId, "Store Owner");
             // go to SetStoreInfo activity
             Intent intent = new Intent(this, SetStoreInfo.class);
             // pass on the accountId
